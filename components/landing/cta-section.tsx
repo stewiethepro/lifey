@@ -42,12 +42,10 @@ const secondRow = reviews.slice(reviews.length / 2);
 const ReviewCard = ({
   img,
   name,
-  username,
   body,
 }: {
   img: string;
   name: string;
-  username: string;
   body: string;
 }) => {
   return (
@@ -66,7 +64,7 @@ const ReviewCard = ({
           <figcaption className="text-sm font-medium dark:text-white">
             {name}
           </figcaption>
-          <p className="text-xs font-medium dark:text-white/40">{username}</p>
+          <p className="text-xs font-medium dark:text-white/40">{name}</p>
         </div>
       </div>
       <blockquote className="mt-2 text-sm">{body}</blockquote>
@@ -83,7 +81,7 @@ export default function CallToAction() {
             <div className="absolute rotate-[35deg]">
               <Marquee pauseOnHover className="[--duration:20s]" repeat={3}>
                 {firstRow.map((review) => (
-                  <ReviewCard key={review.username} {...review} />
+                  <ReviewCard key={review.name} {...review} />
                 ))}
               </Marquee>
               <Marquee
@@ -93,12 +91,12 @@ export default function CallToAction() {
                 repeat={3}
               >
                 {secondRow.map((review) => (
-                  <ReviewCard key={review.username} {...review} />
+                  <ReviewCard key={review.name} {...review} />
                 ))}
               </Marquee>
               <Marquee pauseOnHover className="[--duration:20s]" repeat={3}>
                 {firstRow.map((review) => (
-                  <ReviewCard key={review.username} {...review} />
+                  <ReviewCard key={review.name} {...review} />
                 ))}
               </Marquee>
               <Marquee
@@ -108,12 +106,12 @@ export default function CallToAction() {
                 repeat={3}
               >
                 {secondRow.map((review) => (
-                  <ReviewCard key={review.username} {...review} />
+                  <ReviewCard key={review.name} {...review} />
                 ))}
               </Marquee>
               <Marquee pauseOnHover className="[--duration:20s]" repeat={3}>
                 {firstRow.map((review) => (
-                  <ReviewCard key={review.username} {...review} />
+                  <ReviewCard key={review.name} {...review} />
                 ))}
               </Marquee>
               <Marquee
@@ -123,7 +121,7 @@ export default function CallToAction() {
                 repeat={3}
               >
                 {secondRow.map((review) => (
-                  <ReviewCard key={review.username} {...review} />
+                  <ReviewCard key={review.name} {...review} />
                 ))}
               </Marquee>
             </div>
