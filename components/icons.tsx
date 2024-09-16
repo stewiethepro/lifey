@@ -55,7 +55,6 @@ export const Icons = {
           WebkitTextCombine: "none",
           WebkitTextDecorationsInEffect: "none",
           WebkitTextFillColor: "rgba(48,48,48,.8)",
-          WebkitTextOrientation: "vertical-right",
           WebkitTextSecurity: "none",
           WebkitTextStroke: "0 rgba(48,48,48,.8)",
           WebkitUserDrag: "auto",
