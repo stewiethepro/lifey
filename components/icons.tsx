@@ -5,7 +5,6 @@ export const Icons = {
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" {...props}>
       <foreignObject width="100%" height="100%">
         <div
-          xmlns="http://www.w3.org/1999/xhtml"
           className="bg-transparent w-screen max-w-full aspect-square md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] xl:w-[600px] xl:h-[600px]"
           style={{
             display: "block",
