@@ -70,7 +70,7 @@ export default function Hero() {
                   type: "spring",
                 }}
               >
-                Lifey takes care of the jobs you don't want to do.
+                Lifey takes care of the jobs you don&apos;`t want to do.
               </motion.p>
 
               <motion.div
