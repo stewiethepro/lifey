@@ -42,7 +42,7 @@ export default function Component() {
             So affordable it should be <span className="text-orange-400 dark:text-white">illegal</span> 
           </h4>
           <p className="mt-6 text-xl leading-8 text-black/80 dark:text-white">
-            If we made Lifey any more affordable we&apos;`d be living out of our cars.
+            If we made Lifey any more affordable we&apos;d be living out of our cars.
         </p>
         </div>
         {/* <div className="mt-5 flex items-center justify-center space-x-2">

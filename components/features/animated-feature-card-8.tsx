@@ -107,7 +107,7 @@ export function FeatureCard8() {
               <div className="w-[calc(100%-3rem)]">
                 <h3 className="text-base font-semibold">Kelly</h3>
                 <p className="text-sm text-neutral-500 dark:text-neutral-400">
-                  Hey, can you help me find a gift for my friend&apos;`s birthday?
+                  Hey, can you help me find a gift for my friend&apos;s birthday?
                 </p>
               </div>
             </motion.div>

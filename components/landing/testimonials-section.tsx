@@ -155,7 +155,7 @@ const testimonials = [
         <Highlight>
           painfully millenial
         </Highlight>{" "}
-        I can&apos;`t even bring myself to doom scroll it.
+        I can&apos;t even bring myself to doom scroll it.
       </p>
     ),
   },
